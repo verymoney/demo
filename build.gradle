@@ -1,0 +1,24 @@
+group 'com.nf'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+            "org.hibernate:hibernate-entitymanager:4+",
+            "javax.servlet:jstl:1.2",
+            "cn.easyproject:ojdbc7:12+",
+
+            "org.apache.struts:struts2-core:2.5.13"
+    )
+            testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

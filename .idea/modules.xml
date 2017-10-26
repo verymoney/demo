@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lqbz.iml" filepath="$PROJECT_DIR$/.idea/modules/lqbz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lqbz/.idea/modules/lqbz_main.iml" filepath="$PROJECT_DIR$/../lqbz/.idea/modules/lqbz_main.iml" group="lqbz" />
+      <module fileurl="file://$PROJECT_DIR$/../lqbz/.idea/modules/lqbz_test.iml" filepath="$PROJECT_DIR$/../lqbz/.idea/modules/lqbz_test.iml" group="lqbz" />
+    </modules>
+  </component>
+</project>
